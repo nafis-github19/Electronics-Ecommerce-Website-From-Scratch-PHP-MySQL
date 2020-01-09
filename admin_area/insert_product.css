@@ -1,0 +1,27 @@
+
+body{
+	background-color: skyblue;
+}
+
+
+form{
+	width: 40%;
+	margin: auto;
+
+
+}
+
+#insert_prod{
+	margin-left: 40px;
+}
+
+table{
+	background-color: yellow;
+	padding: 20px;
+	
+}
+
+#submit-button{
+	margin-left: 25%;
+	padding: 10px;
+}

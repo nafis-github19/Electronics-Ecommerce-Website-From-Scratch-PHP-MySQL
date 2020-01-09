@@ -1,0 +1,124 @@
+
+
+body{
+	
+}
+
+.main-container{
+	width: 1000px;
+	margin: auto;
+	
+}
+
+header{
+	background-color: pink;
+}
+.logo img{
+	height: 80px;
+	float: left;
+	
+}
+
+.slogan{
+	width: 600px;
+	padding-left: 20px;
+	line-height: 100px;
+	
+
+}
+.new{
+	clear: both;
+}
+
+nav{
+	background-color: red;
+}
+
+nav ul{
+	width: 600px;
+	float: left;
+	list-style: none;
+	padding: 5px;
+
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: bolder;
+	
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+nav ul li a:hover{
+	color: yellow;
+	font-weight: bolder;
+}
+
+
+.search-bar{
+	width: 300px;
+	float: right;
+	line-height: 80px;
+}
+.c{
+	clear: both;
+}
+
+
+.sidebar h2{
+	background-color: white;
+	color: black;
+	padding: 5px;
+}
+
+
+.sidebar{
+	width: 200px;
+	float: left;
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
+.sidebar ul li{
+
+	list-style: none;
+	padding: 10px;
+
+}
+
+
+.sidebar ul li a{
+	color: white;
+	text-decoration: none;
+
+}
+
+.sidebar ul li a:hover{
+	color: orange;
+	font-weight: bolder;
+}
+
+.main-content{
+	width: 760px;
+
+	float: right;
+	background-color: yellow;
+}
+
+
+footer{
+	background-color: blue;
+	width: 1000px;
+	height: 100px;
+	color: black;
+	text-align: center;
+	padding-top: 20px;
+	clear: both;
+}
