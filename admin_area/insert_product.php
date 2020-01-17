@@ -121,7 +121,7 @@ include("includes/db.php");
 		$product_image = $_FILES["product_image"]["name"];
 		$product_image_tmp = $_FILES["product_image"]["tmp_name"];
 
-		move_uploaded_file(product_image_tmp, "product_images/$product_image");
+		move_uploaded_file($product_image_tmp, "product_images/$product_image");
 
 		$insert_product = "insert into products (prod_cat, prod_brand, prod_name, prod_price, prod_desc, prod_keywords, prod_image) values ('$product_cat','$product_brand', '$product_name', '$product_price', '$product_desc', '$product_keywords', '$product_image')";
 

@@ -7,6 +7,7 @@ body{
 .main-container{
 	width: 1000px;
 	margin: auto;
+	background: black;
 	
 }
 
@@ -111,6 +112,34 @@ nav ul li a:hover{
 	float: right;
 	background-color: yellow;
 }
+
+
+#product_box{
+	width:  780px;
+	text-align: center;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+#single_product{
+	float: left;
+	margin-left: 20px;
+	padding: 10px;
+
+}
+
+#single_product img{
+	border: 2px solid black;
+}
+
+
+#shopping_cart{
+	width: 760px;
+	height: 50px;
+	background-color: darkblue;
+	color: orange;
+}
+
 
 
 footer{

@@ -46,6 +46,48 @@ function getBrand(){
 
 }
 
+function getPro(){
+
+	global $con;
+	$get_pro = "select * from products order by RAND() LIMIT 0,6";
+
+	$run_pro = mysqli_query($con, $get_pro);
+
+	while($row_pro = mysqli_fetch_array($run_pro)){
+
+		$pro_id = $row_pro["prod_id"];
+		$pro_cat = $row_pro["prod_cat"];
+		$pro_brand = $row_pro["prod_brand"];
+		$pro_name = $row_pro["prod_name"];
+		$pro_price = $row_pro["prod_price"];
+		$pro_image = $row_pro["prod_image"];
+
+
+		echo "
+
+			<div id='single_product'>
+
+				<h3>$pro_name</h3>
+				<img src='admin_area/product_images/$pro_image' width = '180px' height = '180px'>
+				<p><strong>$$pro_price</strong></p>
+
+				<a href='details.php?pro_id=$pro_id'>Details</a>
+				<a href='index.php?pro_id=$pro_id'><button>Add to Cart</button></a>
+
+
+
+
+
+
+
+			</div>
+
+
+		";
+
+	}
+}
+
 
 
 
